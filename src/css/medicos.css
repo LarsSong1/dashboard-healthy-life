@@ -1,0 +1,112 @@
+.card {
+    width: 22rem;
+    margin: 30px;
+    border-radius: 8%;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #ECECEC;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.card-title {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 30px;
+}
+
+
+.card-body {
+    height: 150px;
+    position: relative;
+    background-color: var(--color-blanco);
+}
+
+.card-text,
+.card-title {
+    position: relative;
+    z-index: 99;
+}
+
+.card .wave {
+
+    position: absolute;
+    height: 520px;
+    transform: rotateY(180deg);
+    width: 350px;
+    left: 0%;
+    bottom: 0%;
+    opacity: 0;
+    z-index: 1;
+    transition: all ease-in 0.5s;
+}
+
+.card:hover .wave {
+    opacity: 1;
+}
+
+
+.card .social-n{
+    position: absolute;
+    top: 0%;
+    left: -7%;
+    opacity: 0;
+    transition: all ease-in 0.5s;
+    z-index: 9999;
+}
+.card .social-n li{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-boton);
+    margin: 10px;
+}
+
+.card .social-n li a i{
+    font-size: 30px;
+    color: var(--color-blanco);
+}
+
+
+
+.card:hover .social-n {
+    opacity: 1;
+}
+
+
+.card .contact {
+    background-color: #5E524C;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: none;
+    z-index: 99999;
+   
+   
+}
+
+.card:hover .contact {
+    display: block;
+}
+
+.card .contact i{
+    font-size: 50px;
+    color: var(--color-blanco);
+    position: relative;
+    left: 18%;
+    top: 8%;
+}
+
+

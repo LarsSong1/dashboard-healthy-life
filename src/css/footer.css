@@ -1,0 +1,43 @@
+.footer {
+    margin-top: 10%;
+    background-color: #42816C;
+    padding-top: 2%;
+}
+
+.footer .container h6, .footer a, .footer i , .footer p{
+    color: var(--color-blanco);
+
+}
+
+.footer .container h6{
+    font-size: 18px;
+}
+
+
+.footer i{
+    font-size: 30px;
+}
+
+.footer img{
+   height: 100px;
+   width: 200px;
+}
+
+
+.footer a{
+    text-decoration: none;
+}
+
+
+.footer a, .footer p{
+    font-size: 18px;
+}
+
+.footer hr{
+    margin: auto;
+    border: 2px dashed var(--color-blanco);
+    width: 80%;
+    margin-bottom: 2%;
+    
+
+}

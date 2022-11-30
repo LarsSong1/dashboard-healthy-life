@@ -1,0 +1,48 @@
+.item-boton .boton-cita {
+    width: 217px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-boton);
+    border-radius: 29px;    
+    align-items: center;
+    color: var(--color-blanco);
+    
+}
+
+li {
+    list-style: none;
+}
+
+
+.boton{
+    margin-right: 3%;   
+}
+
+.item-boton .boton-cita i{
+    font-size: 25px;
+    position: relative;
+    bottom: 8%;
+}
+
+.item-boton .boton-cita p{
+    height: 20%;
+}
+
+@media screen and (max-width:600px) {
+    .item-boton .boton-cita{
+        margin-top: 10%;
+    }
+
+    
+}
+
+@media screen and (max-width: 454px){
+    .item-boton .boton-cita{
+        width: 160px;
+    }
+
+   
+
+    
+}

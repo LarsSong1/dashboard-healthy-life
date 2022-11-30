@@ -1,0 +1,61 @@
+.contenedor-patrocinadores{
+    min-height: 800px;
+    margin-top: 10%;
+}
+
+.contenedor-patrocinadores .patrocinadores-logo{
+    width: 100%;
+    height: 700px;
+    background: url("../img/pizarra.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.contenedor-patrocinadores .patrocinadores-logo img{
+    padding: 150px;
+}
+
+.contenedor-patrocinadores h1{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+
+
+@media screen and (max-width: 805px){
+
+    .contenedor-patrocinadores .patrocinadores-logo{
+        background-size: contain;
+        
+    }
+
+
+}
+@media screen and (max-width: 675px) {
+    
+    .contenedor-patrocinadores h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .contenedor-patrocinadores .patrocinadores-logo img{
+        padding: 100px;
+    }
+
+   
+
+}
+
+
+@media screen and (max-width: 454px){
+    .contenedor-patrocinadores h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+  
+}

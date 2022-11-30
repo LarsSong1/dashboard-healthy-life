@@ -1,0 +1,61 @@
+.contenedor-servicios {
+    min-height: 600px;
+    margin-top: 10%;
+}
+
+.contenedor-servicios h1 {
+    font-size: var(--tamaño-titulo);
+    width: 70%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contenedor-servicios .servicios-texto p{
+    align-self: flex-end;
+    letter-spacing: 2px;
+}
+
+.contenedor-servicios .servicios-texto{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+.contenedor-servicios .contenedor-cajas p{
+    font-weight: 500;
+    font-size: 1.8rem;
+
+}
+
+@media screen and (max-width: 850px) {
+    .contenedor-servicios h1{
+        font-size: 4rem;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contenedor-servicios .servicios-texto p{
+        width: 100%;
+        letter-spacing: 2px;
+    }
+    
+}
+
+
+@media screen and (max-width: 675px){
+    .contenedor-servicios h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+}
+
+
+
+
+@media screen and (max-width: 454px){
+    .contenedor-servicios h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

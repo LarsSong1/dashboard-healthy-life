@@ -1,0 +1,39 @@
+.contenedor-especialistas {
+    min-height: 800px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-especialistas .especialistas-texto h1{
+    font-size: var(--tamaño-titulo);
+    font-weight: bold;
+}
+
+
+.contenedor-especialistas p{
+    font-size: var(--tamaño-parrafos);
+}
+
+
+@media screen and (max-width: 675px) {
+    
+    .contenedor-especialistas .especialistas-texto h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+
+}
+
+
+@media screen and (max-width: 454px){
+    .contenedor-especialistas .especialistas-texto h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

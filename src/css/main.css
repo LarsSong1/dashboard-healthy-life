@@ -1,0 +1,182 @@
+.contenedor-main {
+    margin-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    /* min-height: 90vh; */
+    min-height: 800px;
+    position: relative;
+}
+
+.main-caja {
+    width: 310px;
+}
+
+.main-caja a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-negro);
+}
+
+.contenedor-main h1 {
+    width: 90%;
+    font-size: var(--tamaño-titulo);
+    font-weight: bold;
+    margin-bottom: 3%;
+
+}
+
+.contenedor-main .main-eslogan {
+    padding-right: 40%;
+    font-size: var(--tamaño-parrafos);
+    font-weight: var(--ancho-parrafos);
+    letter-spacing: 3%;
+    margin-bottom: 7%;
+    width: 90%;
+
+}
+
+
+.alinear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-main .hero-medico {
+    background: url("../img/heroMedico.svg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+.pacientes {
+    width: 244px;
+    height: 202px;
+    
+    
+    
+}
+
+.contenedor-main .hero-medico{
+    min-height: 800px;
+}
+
+
+
+.alinear .main-caja{
+    position: relative;
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+
+
+@media screen and (max-width: 1228px) {
+    .contenedor-main h1 {
+        width: 90%;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 3%;
+    }
+
+    .contenedor-main .main-eslogan {
+        padding-right: 35%;
+        font-size: 0.8rem;
+    }
+
+    .pacientes{
+        position: relative;
+    }
+    .contenedor-main .hero-medico {
+        background: url("../img/heroMedico.svg") no-repeat;
+        background-size: contain;
+        
+        justify-content: center;
+    
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .contenedor-main h1 {
+        width: 80%;
+        text-align: center;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 3%;
+        margin: auto;
+    }
+
+    .contenedor-main .main-eslogan {
+        padding-right: 0%;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 7%;
+    }
+
+   
+
+    .main-caja {
+        margin: auto;
+    }
+
+
+}
+
+
+@media screen and (max-width: 675px) {
+    .contenedor-main h1 {
+        width: 90%;
+        text-align: center;
+        font-size: 3rem;
+
+    }
+
+    .contenedor-main {
+        margin: auto;
+    }
+
+
+    .contenedor-main .hero-medico{
+        min-height: 650px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .main-caja {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-caja a {
+        margin-bottom: 4%;
+    }
+
+
+    .contenedor-main h1 {
+        width: 95%;
+        text-align: center;
+        font-size: 1.5rem;
+
+    }
+
+    .contenedor-main .main-eslogan {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 0%;
+
+    }
+
+    .contenedor-main .hero-medico{
+        min-height: 500px;
+    }
+}
+

@@ -1,0 +1,25 @@
+.s-caja:nth-child(1) {
+    background-color: #DEB887;
+}
+
+.s-caja:nth-child(2) {
+    background-color: #00A879;
+}
+.s-caja:nth-child(3) {
+    background-color: #E8FEF5;
+}
+.s-caja:nth-child(4) {
+    background-color: #42826C;
+}
+
+
+.s-caja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+    height: 241px;
+    width: 243px;
+    border-radius: 30px;
+    margin: 45px;
+}

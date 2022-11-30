@@ -1,0 +1,33 @@
+.contenedor-especialidades{
+    margin-top: 10%;
+    padding-left: 4%;
+    padding-right: 4%;
+    min-height: 800px;
+}
+
+.contenedor-especialidades .title {
+    font-size: 6rem;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 675px) {
+    
+    .contenedor-especialidades .title{
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 454px){
+    .contenedor-especialidades .title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
