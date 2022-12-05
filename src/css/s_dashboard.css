@@ -1,0 +1,374 @@
+body{
+    background-color: #F9F9F9;
+    max-width: 1920px;
+    max-height: 1080;
+}
+
+.user-title h1{
+    font-size: 30px;
+
+}
+
+.cita-input:nth-child(1){
+    width: 35%;
+    min-width: 10%;
+}
+
+.cita-input:nth-child(2){
+    width: 35%;
+    min-width: 10%;
+}
+
+.cita-input:nth-child(3){
+    width: 20%;
+    min-width: 5%;
+}
+
+.btn-success{
+    height: 58px;   
+    width: 250px; 
+    min-width: 50px;
+}
+
+.cita-input input{
+    height: 55px;
+    
+}
+
+.cita-input .btn-danger{
+    width: 130px;
+    min-width: 10px;
+    height: 58px;
+}
+
+.contenedor-cita h1{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    padding-bottom: 8px;
+
+}
+
+
+.contenedor-cita{
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+    height: 200px;
+}
+
+
+.contenedor-cita, form .cita-input input{
+    border-radius: 15px;
+    border: 3px solid #EBEBED;
+}
+
+
+.cita-input label{
+    position: absolute;
+    background-color: #FFFFFF;
+    left: 4.5%;
+    top: -15%;
+    font-weight: 500;
+}
+
+form .cita-input input{
+    padding-left: 4%;
+}
+
+
+.contenedor-cita table{
+    border: #FFFFFF;
+    
+}
+
+
+.contenedor-cita .table{
+    width: 98%;
+}
+
+
+.contenedor-cita .table img{
+    background-color: #EBEBED;
+    width: 40px;
+    height: 46px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contenedor-cita a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 100;
+}
+
+.c-proximo-tratamiento{
+    position: absolute;
+    bottom: 0;
+    height: 410px;
+    width: 100%;
+
+
+}
+
+.minicontenedor-cita{
+    width: 90%;
+    height: 100px;
+}
+
+
+
+.minicontenedor-cita .d-flex img{
+    height: 80px;
+    margin-left: 10%;
+    
+}
+
+
+
+
+
+.c-resultados-examenes{
+    height: 390px;
+}
+
+
+.contenedor-cita .ver-mas{
+    font-weight: 100;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+.mantenimientos-medicos{
+    height: 380px;
+    overflow: scroll;
+}
+
+.mantenimientos-medicos .card{
+    position: relative;
+    top: -30px;
+    height: 300px;
+    width: 220px;
+    
+
+}
+
+.mantenimientos-medicos .card .contact {
+    background-color: #5E524C;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    width: 80px;
+    height: 80px;
+   
+   
+}
+
+.mantenimientos-medicos .card .contact i{
+    font-size: 40px;
+    color: var(--color-blanco);
+    position: relative;
+    left: 18%;
+    top: 8%;
+}
+
+
+.mantenimientos-medicos .card .wave{
+    height: 350px;
+}
+
+.mantenimientos-medicos .card .social-n li a i{
+    font-size: 25px;
+}
+
+.mantenimientos-medicos .card .social-n li{
+    width: 40px;
+    height: 40px;
+}
+
+.mantenimientos-medicos .card .social-n{
+    position: absolute;
+    top: 0%;
+    left: -12%;
+    
+}
+
+.mantenimientos-medicos .card-body .card-title {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mantenimientos-medicos .card-text {
+    font-size: 15px;
+    
+}
+
+.mantenimientos-medicos .card img{
+    height: 200px;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+.tratamiento-curso{
+    height: 350px;
+    overflow: hidden;
+}
+
+
+.contenedor-cita .lupa{
+    margin-right: 20px;
+}
+
+.container-fluid h3{
+    margin-top: 30px;
+    font-size: 15px;
+    color: var(--color-difuminado);
+    font-weight: 300;
+}
+
+
+
+
+.contenedor-historial h1, .contenedor-horarios h1,  .contenedor-agendas h1, .contenedor-recetas h1, .contenedor-consulta h1{
+    font-size: 30px;
+}
+
+.boton-historial, .contenedor-horarios .boton-historial {
+    background-color: var(--color-plomo-c);
+    height: 70px;
+    border-radius: 15px;
+    width: 180px;
+    margin-left: 30px;
+}
+
+.contenedor-horarios .boton-historial{
+    width: 250px;
+    position: relative;
+    margin: 10px;
+    
+}
+
+.contenedor-horarios .btn{
+    margin: 10px;
+}
+
+.contenedor-horarios .boton-historial div{
+    position: absolute;
+    left: 10%;
+}
+
+.texto-historial .boton-historial div, .contenedor-horarios .boton-historial div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #00A879;
+    color: #00A879;
+}
+
+
+.texto-historial .boton-historial p, .contenedor-horarios .boton-historial p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: 200;
+    position: relative;
+    top: 10%;
+}
+
+
+.fecha{
+    margin-bottom: 20px;
+}
+
+.historial-contenido{
+    height: 700px;
+}
+
+.historial-usuario{
+    border-right: 3px solid var(--color-plomo-c);
+}
+
+.historial-texto p, .contenedor-recetas p{
+    margin-top: 0px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.historial-texto h1, .receta-contenedor h1, .cita-contenedor h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.historial-texto .badge, .contenedor-recetas .badge{
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 16px;
+}
+
+
+.contenedor-imagen{
+    position: relative;
+    height: 90vh;
+    
+}
+
+
+.contenedor-agendas .boton-historial {
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+
+.agendas-contenido {
+    height: 750px;
+}
+
+
+
+.cita-contenedor{
+    height: 300px;
+}
+
+.cita-contenedor .info-estado {
+    margin-left: 40px;
+}
+.cita-contenedor .info-consultas {
+    margin-left: 50px;
+}
+
+.chat-contenedor{
+    height: 480px;
+}
+
+
+.contenedor-activos{
+    height: 790px;
+    
+}
+
+
+
+.contenedor-activos .chat-boton button{
+    width: 200px;
+}
+/* Media */
+@media screen and (max-width: 768px ) {
+    .c-proximo-tratamiento{
+        position: relative;
+        
+    
+    }
+    
+}
+

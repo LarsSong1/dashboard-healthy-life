@@ -1,0 +1,83 @@
+.menu-dash .container-fluid .collapse .nav-item a{
+    color: #000000;
+   
+}
+
+
+.menu-dash .navbar-collapse{
+    padding-right: 3%;
+    flex-grow: 0;
+}
+
+
+.menu-dash .container-fluid .collapse ul li:hover{
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.contenedor-menu .collapse ul li a{
+    display: none;
+}
+
+.contenedor-menu .usuario{
+    width: 16%;
+    
+}
+
+.contenedor-menu .usuario p{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 100;
+    
+
+}
+
+.contenedor-menu .usuario img:nth-child(1){
+    width: 20px;
+    height: 20px;
+}
+
+.btn-search{
+    right: 0;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.contenedor-menu form input{
+    background-color: var(--color-plomo-c);
+    width: 405px;
+    height: 50px;
+    border-radius: var(--border-caja);
+}
+
+
+
+@media screen and (max-width:992px) {
+    .contenedor-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-menu .collapse ul li a{
+        display: block;
+    }
+
+    .contenedor-menu .collapse{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-menu .usuario{
+        opacity: 0;
+        
+    }
+
+
+
+    
+
+}

@@ -1,0 +1,16 @@
+.agendas-contenido span {
+    background-color: var(--color-boton);
+    width: 200px;
+    height: 50px;
+}
+
+.agendas-contenido input, .agendas-contenido select{
+    height: 50px;
+    width: 300px;
+}
+
+
+
+.input-group{
+    width: 50%;
+}

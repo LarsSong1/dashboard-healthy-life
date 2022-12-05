@@ -1,0 +1,24 @@
+.contenedor-dashboard{
+    background-color: var(--color-plomo);
+    height: 100vh;
+}
+
+.dashboard{ 
+    background-color: var(--color-verde-o);
+}
+
+.contenido{
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .contenedor-dashboard .dashboard{
+        display: none;
+    }
+    
+    .dashboard-content{
+        width: 100%;
+    }
+}

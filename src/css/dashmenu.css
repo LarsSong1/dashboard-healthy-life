@@ -1,0 +1,46 @@
+.nav-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.logo-dash{
+    width: 50%;
+}
+
+.navbar .container-fluid .collapse ul li a, .navbar .container-fluid .collapse ul li i{
+    color: var(--color-blanco);
+   
+}
+
+.navbar .container-fluid .collapse ul li i{
+    font-size: 20px;
+    padding-right: 12px;
+}
+
+.navbar .container-fluid .collapse ul li:hover{
+    border: 2px solid var(--color-blanco);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.dropdown-menu{
+    background-color: #5c9c85;
+}
+
+.dropdown-menu .dropdown-item{
+    background-color: #5c9c85;
+}
+
+
+
+.salir{
+    position: absolute;
+    top: 200%;
+}
+
+
+

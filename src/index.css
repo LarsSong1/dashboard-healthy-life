@@ -20,4 +20,9 @@ code {
   --tamaño-titulo: 6rem;
   --tamaño-parrafos: 1.25rem;
   --ancho-parrafos: 300;
+  --color-plomo: #F9F9F9;
+  --color-verde-o: #42816C;
+  --color-plomo-c: #EBEBED;
+  --border-caja: 15px;
+  --color-difuminado: #484848;
 }

@@ -1,3 +1,8 @@
+.p .header-p .navbar-nav .nav-item a{
+    color: #000000;
+    visibility: 1;
+}
+
 .navbar .collapse .navbar-nav{
     margin: auto;
 }
@@ -16,6 +21,7 @@
     text-align: center;
 
 }
+
 
 
 @media screen and (max-width:600px) {
