@@ -1,0 +1,44 @@
+.contenedor-login {
+    height: 100vh;
+    position: relative;
+}
+
+.imagen-login{
+    position: relative;
+    background-image: url("../img/login-imagen.svg");
+    background-color: var(--color-verde-o);
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor-login h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.contenedor-login h6{
+    color: #484848;
+    font-weight: 300;
+
+}
+
+.contenedor-login label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contenedor-login input {
+    height: 70px;
+    border-radius: 3px solid #484848;
+    margin-bottom: 30px;
+}
+
+.contenedor-login .boton-registro{
+    margin-top: 20px;
+    border-radius: 30px;
+    height: 50px;
+    position: relative;
+    left: 25%;
+}

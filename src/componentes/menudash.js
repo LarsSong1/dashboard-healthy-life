@@ -18,7 +18,7 @@ function Menudash() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link class="nav-link active" aria-current="page" href="/dashboard/">Dashboard</Link>
+                            <Link class="nav-link active" aria-current="page" to="/dashboard/">Dashboard</Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link active" aria-current="page" to="/mantenimiento">Mantenimientos</Link>

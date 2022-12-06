@@ -17,10 +17,10 @@ function Dashmenu() {
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-column">
                         <li class="nav-item">
                             <i class="bi bi-house-fill"></i>
-                            <Link class="nav-link active" aria-current="page" to="/dashboard/">Dashboard</Link>
+                            <Link class="nav-link active" aria-current="page" to="/dashboard/ ">Dashboard</Link>
                         </li>
                         <li class="nav-item dropdown">
-                            <Link to="/mantenimiento" element={Mantenimientos}>Mantenimientos</Link>
+                            <Link to="/mantenimiento" element={<Mantenimientos/>}>Mantenimientos</Link>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="!#">Healthy Life</a></li>
                                 <li><a class="dropdown-item" href="!#">Empleados</a></li>

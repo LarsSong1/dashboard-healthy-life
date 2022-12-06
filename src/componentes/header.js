@@ -35,7 +35,7 @@ function Header() {
                         <Boton
                         texto="AGENDAR CITA"
                         icon="bi bi-calendar-fill"
-                        id="/dashboard/"
+                        id="/login"
                         />
                         
                     </ul>

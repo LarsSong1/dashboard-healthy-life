@@ -9,6 +9,7 @@ import Agendas from './paginas/agendas';
 import Recetas from './paginas/recetas';
 import Consultas from './paginas/consultas';
 import Cuenta from './paginas/cuenta';
+import Login from './paginas/login';
 
 
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/recetas' element={<Recetas/>}/>
           <Route path='/consultas' element={<Consultas/>}/>
           <Route path='/cuenta' element={<Cuenta/>}/>
+          <Route path='/login' element={<Login/>}/>
           
 
         </Routes>
