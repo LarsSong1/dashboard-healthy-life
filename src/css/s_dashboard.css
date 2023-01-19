@@ -372,3 +372,72 @@ form .cita-input input{
     
 }
 
+@media screen and (max-width: 638px ) {
+    .tratamiento-curso form table thead tr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tratamiento-curso form table tbody tr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .tratamiento-curso{
+        min-height: 1000px;
+    }
+
+    .historial-contenido{
+        min-height: 1600px;
+    }
+
+    .historial-texto button {
+        width: 60%;
+    }
+
+    .h-h{
+        min-height: 350px;
+    }
+
+    .agendas-contenido .a-c{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .agendas-contenido{
+        min-height: 1400px;
+    }
+
+    .cita-contenedor{
+        min-height: 500px;
+    }
+    
+    .cita-contenedor .info-consultas{
+        margin-left: 0px;
+        margin: auto;
+    }
+
+    .cita-contenedor .info-estado{
+        margin: auto;
+    }
+
+    .info-consultas button{
+        width: 50%;
+    }
+    .chat-contenedor{
+        min-height: 700px;
+    }
+
+    .contenedor-activos {
+        min-height: 1500px;
+    }
+
+    
+}
+

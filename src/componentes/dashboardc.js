@@ -24,7 +24,7 @@ function Consulta() {
       <div class="d-flex flex-wrap">
         <div class="row col-12 col-md-8 col-lg-8">
           <div class="contenedor-cita cita-contenedor">
-            <div class="text-center d-flex align-items-center justify-content-start h-100 flex-wrap">
+            <div class="text-center d-flex align-items-center justify-content-start h-100 flex-wrap c-i">
               <div class="info-estado">
                 <h1>Estado</h1>
                 <img src={avatar} alt="avatar" />

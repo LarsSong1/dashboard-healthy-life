@@ -15,13 +15,13 @@ function Agenda() {
         </div>
       </div>
       <div class="contenedor-cita agendas-contenido">
-        <div class="container-fluid">
-          <div class="d-flex flex-wrap justify-content-between align-items-center">
-            <div class="input-group mb-3 mt-3 
+        <div class="container-fluid t-a">
+          <div class="d-flex justify-content-between align-items-center flex-wrap a-c">
+            <div class="input-group mb-3 mt-3
             ">
               <span class="input-group-text" id="basic-addon1">Especialidad</span>
               <div>
-                <select class="form-select form-select-md" aria-label=".form-select-sm example">
+                <select class="form-select form-select-md mx-auto w-75" aria-label=".form-select-sm example">
                   <option selected>Elija una Especialidad</option>
                   <option value="1">Enfermería</option>
                   <option value="2">Diagnóstico</option>
@@ -37,7 +37,7 @@ function Agenda() {
             <div class="input-group mb-3 mt-3 ">
               <span class="input-group-text" id="basic-addon1">Médico</span>
               <div>
-                <select class="form-select form-select-md" aria-label=".form-select-sm example">
+                <select class="form-select form-select-md mx-auto w-75" aria-label=".form-select-sm example">
                   <option selected>Elija un médico</option>
                   <option value="1">Dr. Holguin Ruiz</option>
                   <option value="2">Dra. Avilez Montalvan</option>
@@ -53,7 +53,7 @@ function Agenda() {
           <div class="input-group mb-3 mt-3">
             <span class="input-group-text" id="basic-addon1">Hora</span>
             <div>
-              <select class="form-select form-select-md" aria-label=".form-select-sm example">
+              <select class="form-select form-select-md mx-auto w-75" aria-label=".form-select-sm example">
                 <option selected>Elija una Hora</option>
                 <option value="1">8:00-8:30</option>
                 <option value="1">9:00-9:30</option>
@@ -61,11 +61,11 @@ function Agenda() {
               </select>
             </div>
           </div>
-          <div class=" d-flex flex-wrap justify-content-between align-items-center">
+          <div class=" d-flex flex-wrap justify-content-between align-items-center a-c">
             <div class="input-group mb-3 mt-3">
               <span class="input-group-text" id="basic-addon1">Ciudad</span>
               <div>
-                <select class="form-select form-select-md" aria-label=".form-select-sm example">
+                <select class="form-select form-select-md mx-auto w-75" aria-label=".form-select-sm example">
                   <option selected>Elija una Ciudad</option>
                   <option value="1">Santa Elena</option>
                   <option value="2">Guayaquil</option>
@@ -78,7 +78,7 @@ function Agenda() {
             <div class="input-group mb-3 mt-3">
               <span class="input-group-text" id="basic-addon1">Médico</span>
               <div>
-                <select class="form-select form-select-md" aria-label=".form-select-sm example">
+                <select class="form-select form-select-md mx-auto w-75" aria-label=".form-select-sm example">
                   <option selected>Elija un médico</option>
                   <option value="1">Dr. Holguin Ruiz</option>
                   <option value="2">Dra. Avilez Montalvan</option>
@@ -91,7 +91,7 @@ function Agenda() {
               </div>
             </div>
           </div>
-          <div class="d-flex flex-wrap">
+          <div class="d-flex flex-wrap a-c">
             <div class="input-group mb-3">
               <span class="input-group-text" id="basic-addon2">Número a contactar:</span>
               <input type="text" class="form-control" placeholder="+593" aria-label="Recipient's username" aria-describedby="basic-addon2" />
@@ -101,7 +101,7 @@ function Agenda() {
               <input type="text" class="form-control" placeholder="Número" aria-label="Recipient's username" aria-describedby="basic-addon2" />
             </div>
           </div>
-          <div class="input-group mb-3">
+          <div class="input-group mb-3 ">
             <span class="input-group-text" id="basic-addon2">Domicilio:</span>
             <input type="text" class="form-control" placeholder="Calle: Chimborazo-Fausto Fajardo Eje." aria-label="Recipient's username" aria-describedby="basic-addon2" />
           </div>
@@ -113,9 +113,9 @@ function Agenda() {
             <h2>Total:  </h2>
             <h2>$36,50</h2>
           </div>
-          <div class="d-flex justify-content-end">
-            <button type="button" class="btn btn-success mt-5 w-25">Enviar</button>
-            <button type="button" class="btn btn-danger mt-5 w-25">Cancelar</button>
+          <div class="d-flex justify-content-end flex-wrap">
+            <button type="button" class="btn btn-success mt-5 w-50">Enviar</button>
+            <button type="button" class="btn btn-danger mt-5 w-50">Cancelar</button>
           </div>
         </div>
 

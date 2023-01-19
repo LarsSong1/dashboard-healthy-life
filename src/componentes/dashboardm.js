@@ -6,14 +6,14 @@ function Dashboardm() {
   return (
     <div class="container-fluid contenedor-historial">
       <h3>Historia Clínica</h3>
-      <div class="texto-historial d-flex align-items-center">
+      <div class="texto-historial d-flex align-items-center flex-wrap">
         <h1>Sopa Velez</h1>
         <div class="boton-historial d-flex align-items-center justify-content-center position-relative">
           <div></div>
           <p>Activo</p>
         </div>
       </div>
-      <div class="d-flex justify-content-between fecha">
+      <div class="d-flex justify-content-between fecha flex-wrap">
         <p>10/2/2022 Guayaquil</p>
         <button type="button" class="btn btn-success">Actualizar</button>
       </div>
@@ -30,9 +30,9 @@ function Dashboardm() {
 
         </div>
         <div class="row col-12 col-md-7 col-lg-7 mx-auto">
-          <div class="container-fluid">
-            <div class="contenedor-cita historial-texto">
-              <div class="d-flex align-items-center justify-content-between">
+          <div class="container-fluid ">
+            <div class="contenedor-cita historial-texto h-h">
+              <div class="d-flex align-items-center justify-content-between flex-wrap">
                 <h1>Enfermedad</h1>
                 <div>
                   Estado:  <span class="badge text-bg-success">Curado</span>
@@ -41,7 +41,7 @@ function Dashboardm() {
               <p>Infección de oído</p>
               <div>
                 <h1>Tratamiento</h1>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between flex-wrap">
                   <p>Amoxicilina por 2 semanas</p>
                   <p>17/04/2002</p>
                 </div>
@@ -49,8 +49,8 @@ function Dashboardm() {
             </div>
           </div>
           <div class="container-fluid">
-            <div class="contenedor-cita historial-texto">
-              <div class="d-flex align-items-center justify-content-between">
+            <div class="contenedor-cita historial-texto h-h">
+              <div class="d-flex align-items-center justify-content-between flex-wrap">
                 <h1>Enfermedad</h1>
                 <div>
                   Estado:  <span class="badge text-bg-success">Curado</span>
@@ -59,7 +59,7 @@ function Dashboardm() {
               <p>Infección de oído</p>
               <div>
                 <h1>Tratamiento</h1>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between flex-wrap">
                   <p>Amoxicilina por 2 semanas</p>
                   <p>17/04/2002</p>
                 </div>
@@ -67,8 +67,8 @@ function Dashboardm() {
             </div>
           </div>
           <div class="container-fluid">
-            <div class="contenedor-cita historial-texto">
-              <div class="d-flex align-items-center justify-content-between">
+            <div class="contenedor-cita historial-texto h-h">
+              <div class="d-flex align-items-center justify-content-between flex-wrap">
                 <h1>Enfermedad</h1>
                 <div>
                   Estado:  <span class="badge text-bg-success">Curado</span>
@@ -77,7 +77,7 @@ function Dashboardm() {
               <p>Infección de oído</p>
               <div>
                 <h1>Tratamiento</h1>
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between flex-wrap">
                   <p>Amoxicilina por 2 semanas</p>
                   <p>17/04/2002</p>
                 </div>
