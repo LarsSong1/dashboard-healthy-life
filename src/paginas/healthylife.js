@@ -7,6 +7,7 @@ import Especialistas from '../componentes/especialistas';
 import Especialidades from '../componentes/especialidades';
 import Patrocinadores from '../componentes/patrocinadores';
 import Footer from '../componentes/footer';
+import '../App.css'
 
 function Healthylife() {
   return (

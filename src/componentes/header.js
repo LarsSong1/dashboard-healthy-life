@@ -33,9 +33,9 @@ function Header() {
                 <div class="boton">
                     <ul class="navbar-nav">
                         <Boton
-                        texto="AGENDAR CITA"
-                        icon="bi bi-calendar-fill"
-                        id="/login"
+                        texto_alternativo="AGENDAR CITA"
+                        icono_alt="bi bi-calendar-fill"
+                        link="/login"
                         />
                         
                     </ul>

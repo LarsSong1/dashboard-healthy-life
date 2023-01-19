@@ -29,6 +29,23 @@ li {
     height: 20%;
 }
 
+
+.item-boton .boton-cita a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-blanco);
+    position: relative;
+}
+
+.item-boton .boton-cita a p{
+    font-size: 20px;
+    position: relative;
+    transform: translateY(30%) translateX(-10%);
+    
+}
+
 @media screen and (max-width:600px) {
     .item-boton .boton-cita{
         margin-top: 10%;

@@ -26,7 +26,7 @@ function Sdashboard() {
 
                 </div>
                 <div class="row mx-auto">
-                    <div class="contenedor-cita">
+                    <div class="contenedor-cita cita-d">
                         <h1>Nueva cita</h1>
                         <div>
                             <form class="d-flex justify-content-around form-cita align-items-center flex-wrap">
@@ -76,7 +76,7 @@ function Sdashboard() {
                 <div class="contenedor-cita c-proximo-tratamiento">
                     <h1>Proximo Tratamiento</h1>
                     <div class="contenedor-cita minicontenedor-cita mx-auto">
-                        <div class="d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-start align-items-center flex-wrap c-docs">
                             <img src={corazon} alt="corazon" />
                             <ul>
                                 <li>Diagnóstico</li>
@@ -86,7 +86,7 @@ function Sdashboard() {
                         </div>
                     </div>
                     <div class="contenedor-cita minicontenedor-cita mx-auto">
-                        <div class="d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-start align-items-center flex-wrap c-docs">
                             <img src={corazon} alt="corazon" />
                             <ul>
                                 <li>Diagnóstico</li>
@@ -96,7 +96,7 @@ function Sdashboard() {
                         </div>
                     </div>
                     <div class="contenedor-cita minicontenedor-cita mx-auto">
-                        <div class="d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-start align-items-center flex-wrap c-docs">
                             <img src={corazon} alt="corazon" />
                             <ul>
                                 <li>Diagnóstico</li>

@@ -22,3 +22,64 @@
         width: 100%;
     }
 }
+
+
+
+
+@media screen and (max-width:560px) {
+    .c-resultados-examenes{
+        min-height: 1000px;
+    }
+    .c-resultados-examenes form table thead tr{
+        
+        display: none;
+        
+        
+
+
+    }
+
+    .table>tbody tr td{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .minicontenedor-cita{
+        min-height: 200px;
+        
+    }
+
+    .c-proximo-tratamiento{
+        min-height: 800px;
+    }
+
+    .contenedor-cita form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cita-d{
+        min-height: 300px;
+    }
+
+    .historial-cuadros{
+        min-height: 400px;
+    }
+    
+
+    .form-cita table thead tr{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+
+}
